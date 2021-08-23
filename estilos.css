@@ -1,0 +1,38 @@
+body{
+	margin:0;
+	background:#ddd;
+}
+.contenedor {
+
+	display:flex;
+	justify-content:center;
+}
+
+.caja {
+
+	margin:150px  15px;
+	width:150px;
+	height: 150px;
+	background:crimson;
+	color: #fff;
+	font-size: 40px,
+	text-align:center;
+	line-height:150px;
+	trasition: all 1s;
+}
+
+.caja:nth-child(2){
+backgroung:purple;
+/*
+transform:traslateX(100px);
+transform:traslateY(-100px);
+transform: traslate (50px,50px);
+
+}
+.caja:nth-child(1){
+backgroung:purple;
+transform: rotate(50deg);
+}
+.caja:nth-child(1):hover{
+
+}
