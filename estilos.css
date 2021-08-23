@@ -18,21 +18,56 @@ body {
 	font-size: 40px;
 	text-align: center;
 	line-height: 150px;
-	transition: all 1s;
+	transition: all 3s;
 }
 
-.caja:nth-child(2){
-background:purple;
-/*
-transform:traslateX(100px);
-transform:traslateY(-100px);
-transform: traslate (50px,50px);
+
+.caja:nth-child(1): {
+background: purple;
+transform: Translate(100px,50px)
 
 }
-.caja:nth-child(1){
-backgroung:purple;
-transform: rotate(50deg);
-}
-.caja:nth-child(1):hover{
 
+.caja:nth-child(1):hover {
+background: purple;
+transform: TranslateX(100px)
 }
+
+.caja:nth-child(2):{
+background: purple;
+transform: RotateY(310deg)
+}
+
+.caja:nth-child(2):hover {
+background: pruple;
+transform: RotateY(310deg)
+}
+
+.caja:nth-child(3):{
+background: purple;
+transform: ScaleX(3)
+}
+
+.caja:nth-child(3):hover {
+background: purple;
+transform: ScaleX(3)
+}
+
+.caja:nth-child(4):{
+background: purple;
+transform: Skew(30deg, 40deg)
+}
+
+.caja:nth-child(4):hover {
+background: purple;
+transform: SkewX(40deg)
+}
+
+
+
+
+
+
+
+
+
